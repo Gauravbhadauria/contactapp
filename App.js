@@ -1,14 +1,9 @@
-import { View, Text } from 'react-native'
-import React,{useEffect} from 'react'
-import Contacts from 'react-native-contacts';
+import {View, Text} from 'react-native';
+import React from 'react';
+import AppNavigator from './src/AppNavigator';
 
 const App = () => {
+  return <AppNavigator />;
+};
 
-  return (
-    <View>
-      <Text>App</Text>
-    </View>
-  )
-}
-
-export default App
+export default App;
